@@ -7,7 +7,7 @@ Everything will be based on the ERD class diagram presented below.
 
 </br>
  <div align="center">
-    <img width="374" alt="erd_diagram" src="https://user-images.githubusercontent.com/80895497/148834638-b49c8179-57dd-4bae-9440-7223b33c9df4.png">
+    
     <p>Entity Relationship Diagram (ERD) of Internal Wallet App project</p>
 </div>
 
@@ -21,11 +21,11 @@ To run the project locally, copy up and running follow these simple example step
  (else You can install `Rails` just with this simple command  ```gem install rails```)
  - clone the project with the following command line : 
 ```
-$ git clone git@github.com:Hamzaoutdoors/BLog_app.git
+$ git clone https://github.com/iankusmon/internal_wallet_app.git
 ```
  - Then go to the right folder 
 ```
-$ cd E_Wallet_app
+$ cd internal_wallet_app
 ```
 ```
 $ bundle
@@ -56,7 +56,7 @@ $ rails db:migrate
  </br>
  <div align="center">
     <kbd>
-    <img alt="gif" src="https://user-images.githubusercontent.com/80895497/149379553-ff6689c2-0cce-490e-b663-dc4e384d5cd8.png" width=90% />
+    
     <p>23 Request Specs passed</p>
        </kbd>
 </div>

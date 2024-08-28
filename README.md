@@ -11,8 +11,23 @@ Everything will be based on the ERD class diagram presented below.
     <p>Entity Relationship Diagram (ERD) of Internal Wallet App project</p>
 </div>
 
+<div align="center">
+    <p>Entity Relationship Diagram (ERD) of Blog App project</p>
+    <a href="https://drive.google.com/file/d/12uvMYRWAN22VOZutHliIGC8qnQkzDxgM/view?usp=sharing">Link Draw IO</a>
+</div>
+
 #### App Screenshots
 
+<table>
+  <tr>
+     <td>Splash Page</td>
+     <td>Categories Page</td>
+  </tr>
+  <tr>
+    <td><img src="https://drive.google.com/file/d/10nFuKRqnNjwsE3xt6_H45a2css2O2MMP/view?usp=drive_link" width=270 height=480></td>
+    <td><img src="https://drive.google.com/file/d/1dSSMhVAHQnjMTvCcmlOKx0O4teQzazA5/view?usp=drive_link" width=270 height=480></td>
+  </tr>
+ </table>
 
 ## Getting Started
 To run the project locally, copy up and running follow these simple example steps :

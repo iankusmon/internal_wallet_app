@@ -43,35 +43,35 @@ describe 'when unsuccesfull' do
   end
 
   # it 'when email and passoword are not found' do
-  #   visit '/users/sign_in'
-  #   within('form') do
-  #     fill_in 'user_email', with: ''
-  #     fill_in 'user_password', with: ''
-  #   end
-  #   click_button 'Log in'
+    visit '/users/sign_in'
+    within('form') do
+      fill_in 'user_email', with: ''
+      fill_in 'user_password', with: ''
+    end
+    click_button 'Log in'
 
-  #   expect(page).to have_content 'Sign up'
-  # end
-
-  # it 'when email and passoword are not found' do
-  #   visit '/users/sign_in'
-  #   within('form') do
-  #     fill_in 'user_email', with: 'fooooo1@foo.com'
-  #     fill_in 'user_password', with: 'admin123'
-  #   end
-  #   click_button 'Log in'
-
-  #   expect(page).to have_content 'Sign up'
-  # end
+    expect(page).to have_content 'Sign up'
+  end
 
   # it 'when email and passoword are not found' do
-  #   visit '/users/sign_in'
-  #   within('form') do
-  #     fill_in 'user_email', with: 'user@example.com'
-  #     fill_in 'user_password', with: 'thisisnotthepassword'
-  #   end
-  #   click_button 'Log in'
+    visit '/users/sign_in'
+    within('form') do
+      fill_in 'user_email', with: 'fooooo1@foo.com'
+      fill_in 'user_password', with: 'admin123'
+    end
+    click_button 'Log in'
 
-  #   expect(page).to have_content 'Sign up'
-  # end
+    expect(page).to have_content 'Sign up'
+  end
+
+  # it 'when email and passoword are not found' do
+    visit '/users/sign_in'
+    within('form') do
+      fill_in 'user_email', with: 'user@example.com'
+      fill_in 'user_password', with: 'thisisnotthepassword'
+    end
+    click_button 'Log in'
+
+    expect(page).to have_content 'Sign up'
+  end
 end
